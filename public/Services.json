@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Neurology",
+    "image": "https://i.ibb.co/1srwMts/1.jpg",
+    "description": "Who Chooses to enjoy a pleasure that has annoying consquences, or one who avoids a pain",
+    "dtlsImg": "https://cdn-icons-png.flaticon.com/512/4006/4006171.png",
+    "price": "$72.55",
+    "doctor": "  William Bretly"
+  },
+  {
+    "id": 2,
+    "name": "Pulmonology",
+    "image": "https://i.ibb.co/tcNYDnS/2.jpg",
+    "description": "Who Chooses to enjoy a pleasure that has annoying consquences, or one who avoids a pain",
+    "dtlsImg": "https://cdn-icons-png.flaticon.com/512/4006/4006309.png",
+    "price": "$38.58",
+    "doctor": "  Edward Thomas Hardy"
+  },
+  {
+    "id": 3,
+    "name": "Cardiology",
+    "image": "https://i.ibb.co/3vQC14Z/3.jpg",
+    "description": "Who Chooses to enjoy a pleasure that has annoying consquences, or one who avoids a pain",
+    "dtlsImg": "https://cdn-icons-png.flaticon.com/512/1432/1432423.png",
+    "price": "$80.46",
+    "doctor": "  Thomas Hardy"
+  },
+  {
+    "id": 4,
+    "name": "Gynecology",
+    "image": "https://i.ibb.co/kDdYLqZ/4.jpg",
+    "description": "Who Chooses to enjoy a pleasure that has annoying consquences, or one who avoids a pain",
+    "dtlsImg": "https://cdn-icons-png.flaticon.com/512/4006/4006071.png",
+    "price": "$79.46",
+    "doctor": "  DiCaprio"
+  },
+
+  {
+    "id": 5,
+    "name": "Kidney",
+    "image": "https://i.ibb.co/LSBb4dz/5.jpg",
+    "description": "Who Chooses to enjoy a pleasure that has annoying consquences, or one who avoids a pain",
+    "dtlsImg": "https://i.ibb.co/LxyRy1p/kidney.png",
+    "price": "$78.56",
+    "doctor": "  Michel Jouel"
+  },
+  {
+    "id": 6,
+    "name": "Best Treatment",
+    "image": "https://i.ibb.co/t2tRzHn/6.jpg",
+    "description": "Who Chooses to enjoy a pleasure that has annoying consquences, or one who avoids a pain",
+    "dtlsImg": "https://cdn-icons-png.flaticon.com/512/4228/4228736.png",
+    "price": "$68.76",
+    "doctor": "  David McConaughey"
+  }
+]
