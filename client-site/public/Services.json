@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Brazil Sea Beach",
+    "image": "https://i.ibb.co/1srwMts/1.jpg",
+    "description": "Who Chooses to enjoy a pleasure that has annoying consequences, or one who avoids a pain",
+    "dtlsImg": "https://cdn-icons-png.flaticon.com/512/4006/4006171.png",
+    "price": "$272.55"
+  },
+  {
+    "id": 2,
+    "name": "Tokyo, Japan",
+    "image": "http://themesvila.com/html-templates/laveria/assets/img/package/7.jpg",
+    "description": "Who Chooses to enjoy a pleasure that has annoying consequences, or one who avoids a pain",
+    "dtlsImg": "https://cdn-icons-png.flaticon.com/512/4006/4006309.png",
+    "price": "$238.58"
+  },
+  {
+    "id": 3,
+    "name": "Semporna, Malaysia",
+    "image": "https://i.ibb.co/3vQC14Z/3.jpg",
+    "description": "Who Chooses to enjoy a pleasure that has annoying consequences, or one who avoids a pain",
+    "dtlsImg": "https://cdn-icons-png.flaticon.com/512/1432/1432423.png",
+    "price": "$380.46"
+  },
+  {
+    "id": 4,
+    "name": "Pattaya , Columbia",
+    "image": "https://i.ibb.co/kDdYLqZ/4.jpg",
+    "description": "Who Chooses to enjoy a pleasure that has annoying consequences, or one who avoids a pain",
+    "dtlsImg": "https://cdn-icons-png.flaticon.com/512/4006/4006071.png",
+    "price": "$179.46"
+  },
+
+  {
+    "id": 5,
+    "name": "Bankok, Thiland",
+    "image": "https://i.ibb.co/LSBb4dz/5.jpg",
+    "description": "Who Chooses to enjoy a pleasure that has annoying consequences, or one who avoids a pain",
+    "dtlsImg": "https://i.ibb.co/LxyRy1p/kidney.png",
+    "price": "$278.56"
+  },
+  {
+    "id": 6,
+    "name": "Jakarta, Indonesia",
+    "image": "https://i.ibb.co/t2tRzHn/6.jpg",
+    "description": "Who Chooses to enjoy a pleasure that has annoying consequences, or one who avoids a pain",
+    "dtlsImg": "https://cdn-icons-png.flaticon.com/512/4228/4228736.png",
+    "price": "$468.76"
+  }
+]

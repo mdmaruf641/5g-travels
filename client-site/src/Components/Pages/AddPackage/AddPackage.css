@@ -1,0 +1,9 @@
+.newPackage h2 {
+  color: #fc5b62;
+}
+
+.newPackage input,
+textarea {
+  border: 2px solid #fc5b62;
+  outline: none;
+}
