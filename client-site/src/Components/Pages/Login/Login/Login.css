@@ -1,20 +1,26 @@
 .form-inner {
   width: 400px;
-  border: 2px solid gray;
+
   margin: auto;
   padding: 20px;
   margin-top: 20px;
+  box-shadow: 0px 0px 15px 5px rgb(200, 200, 200);
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
 }
 .form-inner h1 {
-  color: #1a9bdc;
+  color: #fc5b62;
   margin-bottom: 30px;
 }
 .google-btn {
   display: block;
   margin: auto;
-  background-color: #1a9bdc;
-  border: 2px solid transparent;
-  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fc5b62;
+  color: #fc5b62;
   font-size: 18px;
   font-weight: 500;
   padding: 5px 10px;
@@ -30,12 +36,6 @@
   -o-transition: 0.3s;
 }
 
-.google-btn:hover {
-  background-color: transparent;
-  border: 2px solid #1a9bdc;
-  color: #1a9bdc;
-}
-
 .google-btn img {
   width: 30px;
   margin-right: 10px;
@@ -48,6 +48,7 @@
 }
 .signUp-link {
   text-decoration: none;
+  color: #fc5b62;
 }
 
 @media only screen and (max-width: 688px) {

@@ -37,7 +37,7 @@
 
 @media only screen and (max-width: 688px) {
   .service-dtls {
-    display: block;
+    flex-direction: column;
   }
   .dtls-content {
     width: 350px;

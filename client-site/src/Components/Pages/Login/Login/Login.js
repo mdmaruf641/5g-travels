@@ -56,7 +56,7 @@ const Login = () => {
               />
             </Form.Group>
             <div className="text-danger">{error}</div>
-            <Button variant="primary" type="submit">
+            <Button className="add-btn mt-2" variant="primary" type="submit">
               Login
             </Button>
           </Form>
