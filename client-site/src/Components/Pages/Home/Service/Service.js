@@ -1,5 +1,6 @@
 import React from "react";
 import { useHistory } from "react-router";
+
 import "./Service.css";
 
 const Service = (props) => {
@@ -16,9 +17,9 @@ const Service = (props) => {
       <img className="w-100" src={img} alt="package-img" />
       <h4 className="mt-3">{name}</h4>
       <p>{description}</p>
-      <h5>Price: {price}</h5>
+      <h5>Price: ${price}</h5>
 
-      <button onClick={handleDetailsBtn}>Booking Naw</button>
+      <button onClick={handleDetailsBtn}>Place Order</button>
     </div>
   );
 };

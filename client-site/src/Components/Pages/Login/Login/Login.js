@@ -3,7 +3,7 @@ import "./Login.css";
 import { Button, Container, Form } from "react-bootstrap";
 import google from "../../../../images/google.png";
 import { Link } from "react-router-dom";
-import useAuth from "./../../../../Hooks/UseAuth";
+import useAuth from "./../../../../Hooks/UseAuth.js";
 import { useHistory, useLocation } from "react-router";
 
 const Login = () => {
@@ -13,18 +13,25 @@ const Login = () => {
     emailHandle,
     passwordHandle,
     error,
+    setError,
   } = useAuth();
 
   // for redirect
   const location = useLocation();
   const history = useHistory();
   const redirectUrl = location.state?.from || "/home";
+  // google sign in
   const handleGoogleLogin = (e) => {
     e.preventDefault();
-    signInUsingGoogle().then((result) => {
-      history.push(redirectUrl);
-    });
+    signInUsingGoogle()
+      .then((result) => {
+        history.push(redirectUrl);
+      })
+      .catch((error) => {
+        setError(error.message);
+      });
   };
+
   return (
     <div>
       <Container>

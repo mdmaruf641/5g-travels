@@ -6,13 +6,14 @@ import "./AddPackage.css";
 const AddPackage = () => {
   const { register, handleSubmit, reset } = useForm();
   const onSubmit = (data) => {
-    console.log(data);
-    axios.post("http://localhost:5000/packages", data).then((res) => {
-      if (res.data.insertedId) {
-        alert("added Successfully.");
-        reset();
-      }
-    });
+    axios
+      .post("https://howling-treat-26209.herokuapp.com/packages", data)
+      .then((res) => {
+        if (res.data.insertedId) {
+          alert("added Successfully.");
+          reset();
+        }
+      });
   };
   return (
     <div className="newPackage">
@@ -43,7 +44,7 @@ const AddPackage = () => {
           {...register("description")}
         />
         <br />
-        <input type="submit" />
+        <input type="submit" className="add-btn" />
       </form>
     </div>
   );

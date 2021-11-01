@@ -34,7 +34,7 @@ function App() {
             <Route path="/contact">
               <Contact></Contact>
             </Route>
-            <PrivateRoute path="/serviceDetail/:id">
+            <PrivateRoute path="/serviceDetail/:_id">
               <ServiceDetails></ServiceDetails>
             </PrivateRoute>
             <Route path="/addPackage">

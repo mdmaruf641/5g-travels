@@ -35,7 +35,7 @@ const useFirebase = () => {
   const googleProvider = new GoogleAuthProvider();
 
   // google sign in
-  const signInUsingGoogle = (e) => {
+  const signInUsingGoogle = () => {
     setIsLoading(true);
     return signInWithPopup(auth, googleProvider);
   };
@@ -133,6 +133,7 @@ const useFirebase = () => {
     handleRegister,
     nameHandle,
     photoHandle,
+    setError,
   };
 };
 

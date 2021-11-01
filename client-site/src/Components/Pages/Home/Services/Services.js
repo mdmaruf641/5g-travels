@@ -6,7 +6,7 @@ import { Container, Row } from "react-bootstrap";
 const Services = () => {
   const [services, setServices] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/packages")
+    fetch("https://howling-treat-26209.herokuapp.com/packages")
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);
