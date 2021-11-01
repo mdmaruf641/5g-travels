@@ -4,6 +4,7 @@ import MyOrders from "../MyOrders/MyOrders";
 import Profile from "../Profile/Profile";
 import "./Dashboard.css";
 import AllOrders from "./../AllOrders/AllOrders";
+import { Container, Row } from "react-bootstrap";
 
 const Dashboard = () => {
   const [values, setValues] = useState("profile");
@@ -28,40 +29,37 @@ const Dashboard = () => {
 
   return (
     <div>
-      <h2 className="dashboard">Manage Your Dashboard</h2>
+      <Container>
+        <h2 className="dashboard my-3">Manage Your Dashboard</h2>
+        <Row>
+          <div className=" col-lg-2">
+            <input
+              className="add-btn my-2"
+              onClick={myOrders}
+              type="button"
+              value="My Orders"
+            />
 
-      <div className=" my-3 d-flex justify-content-center align-items-center">
-        <input
-          className="add-btn mx-4"
-          onClick={profile}
-          type="button"
-          value="Profile"
-        />
-        <input
-          className="add-btn mx-4"
-          onClick={myOrders}
-          type="button"
-          value="My Orders"
-        />
-
-        <input
-          className="add-btn mx-4"
-          onClick={allOrders}
-          type="button"
-          value="All Orders"
-        />
-        <input
-          className="add-btn mx-4"
-          onClick={addPackage}
-          type="button"
-          value="Add Package"
-        />
-      </div>
-
-      {(values === "Profile" && <Profile></Profile>) ||
-        (values === "My Orders" && <MyOrders></MyOrders>) ||
-        (values === "All Orders" && <AllOrders></AllOrders>) ||
-        (values === "Add Package" && <AddPackage></AddPackage>)}
+            <input
+              className="add-btn my-2"
+              onClick={allOrders}
+              type="button"
+              value="All Orders"
+            />
+            <input
+              className="add-btn my-2"
+              onClick={addPackage}
+              type="button"
+              value="Add Package"
+            />
+          </div>
+          <div className="col-lg-8">
+            {(values === "My Orders" && <MyOrders></MyOrders>) ||
+              (values === "All Orders" && <AllOrders></AllOrders>) ||
+              (values === "Add Package" && <AddPackage></AddPackage>)}
+          </div>
+        </Row>
+      </Container>
     </div>
   );
 };

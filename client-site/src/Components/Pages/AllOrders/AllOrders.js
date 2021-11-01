@@ -4,7 +4,7 @@ import "./AllOrders.css";
 const AllOrders = () => {
   return (
     <div>
-      <h2>Hey All Orders</h2>
+      <h2> All Orders</h2>
     </div>
   );
 };

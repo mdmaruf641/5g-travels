@@ -2,7 +2,9 @@
   background-color: #171717;
   color: #a9a9a9;
 }
-
+.footer-heading h3 span {
+  color: #fc5b62;
+}
 .footer-info p {
   margin: 0;
 }

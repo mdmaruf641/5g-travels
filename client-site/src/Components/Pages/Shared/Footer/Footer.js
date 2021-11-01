@@ -19,7 +19,9 @@ const Footer = () => {
           <Row>
             <div className="col-lg-3 col-md-6">
               <div className="footer-heading text-start text-white mb-3">
-                <h3>Get in Touch</h3>
+                <h3>
+                  <span>5G.</span>Travels
+                </h3>
               </div>
               <div className="footer-info ps-2">
                 <div className="d-flex ms-4 align-items-center">
