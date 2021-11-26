@@ -19,6 +19,5 @@ that purpose it has been named 5G Travels.
 2.  This site has been created using React, JSX, react-bootstrap, Firebase,
     Vanilla CSS, Node JS, Express JS, and Mongodb for database.
 3.  Any user to booking the packages, he has to log in first.
-4.  If a user is not registered, he has to register first to booking or
-    confirmed their orders
+4.  If a user is not registered, he has to register first to book or confirm their orders.
 5.  With this site, users can take any information about this agency.
